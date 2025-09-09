@@ -2,7 +2,7 @@
 
 [Notes](notes.md)
 
-A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This website is going to be about dreams. My family likes to share our dreams with each other, and it's really interesting to hear about them. This website is going to be a place where you can record your dreams to create a personal dream journal. Also where you can read about other people's dreams and share your own with them. 
 
 
 > [!NOTE]
