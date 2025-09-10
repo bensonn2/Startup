@@ -2,7 +2,7 @@
 
 [Notes](notes.md)
 
-This website is going to be about dreams. My family likes to share our dreams with each other, and it's really interesting to hear about them. This website is going to be a place where you can record your dreams to create a personal dream journal. Also where you can read about other people's dreams and share your own with them. 
+This website is going to be about dreams. My family likes to share our dreams with each other, and it's really interesting to hear about them. This website is going to be a place where you can record your dreams to create a personal dream journal. Also where you can read about other people's dreams and share your own with them. This website will also have different communites where you can read about certain types of dreams, or dreams on certain topics and will allow you to find dreams that your friends have posted. 
 
 
 > [!NOTE]
@@ -30,9 +30,9 @@ Have you ever been curious about the dreams other people have? How they're diffe
 
 ### Design
 
-![Design image](placeholder.png)
+![Design image](IMG_1264.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This image shows a basic layout of how the website will work. It'll have a few different pages, though many of them will appear similar. Your homepage will give you a basic feed that shows popular dreams and dreams from your friends. Then, in the communities tab you can check out specific chats, topics, and so forth. Then, on the my posts tab, you can check the dreams you've posted for othe people to see which will look similar. Finally, under the profile tab you'll have the option to select your personal journal, which keeps a diary of your dreams without publishing them for everyone to see. 
 
 ```mermaid
 sequenceDiagram
@@ -51,12 +51,12 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - The html will build the content that you can read such as the tabs, and allow you to go to the different pages.
+- **CSS** - The CSS will organize the page so that it looks neat to look at and not very cluttered. This will allow you to look through different posts.
+- **React** - Each user will need to login in order to gain full functionality of the website. This will also be important for certain features like reacting to posts with a like/upvote. 
+- **Service** - This will retogging in will allow them to acces their dream journal, bring up their friends list, allow them to post and comment, and will save certain user settings like a profile picture and name.
+- **DB/Login** - The database will be very important because this is where all the posts about people's dreams will be stored.
+- **WebSocket** - This will get real time data that will help with the chatting and commenting on posts.
 
 ## 🚀 AWS deliverable
 
