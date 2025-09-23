@@ -14,8 +14,50 @@
                 <li><a href="signIn.html">Sign In</a></li>
             </ul>
         </div>
+
+        <h2>Sign In</h2>
+        <form action="formSubmit.html" method="post">
+            <ul>
+                <li>
+                    <label for="username">Username: </label>
+                    <input type="username" id="username" name="varUsername" />
+                </li>
+                <li>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="varPassword" />
+                </li>
+            </ul>
+            <button type="submit">Submit</button>
+            <button type="createAccount">Create Account</button>
+        </form>
+
+        <div>
+            <p>This is where the log in info will go.</p>
+        </div>
         
+        <h2>Create Account</h2>
+        <div>
+            <form action="formSubmit.html" method="post">
+            <ul>
+                <li>
+                    <label for="username">Username: </label>
+                    <input type="username" id="username" name="varUsername" />
+                </li>
+                <li>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="varPassword" />
+                </li>
+                <li>
+                    <label for="datetime">Date of Birth: </label>
+                    <input type="datetime-local" name="varDatetime" id="datetime" />
+                </li>
+            </ul>
+            <p> Or Sign Up With...</p>
+            <p> Here you can sign up with social media or google</p>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
     </main>
-    <footer></footer>
+    <footer> Nathan Benson <a href="https://github.com/bensonn2/Startup">github</a></footer>
 </body>
 </html>
