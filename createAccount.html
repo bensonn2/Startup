@@ -3,7 +3,7 @@
     <title>The Dreamscape</title>
 </head>
 <body>
-    <header> The Dreamscape</header>
+    <header> The Dreamscape </header>
     <main>
         <div class="navbar">
             <ul>
@@ -14,9 +14,10 @@
             </ul>
         </div>
 
-        </div>
-        <h2>Sign In</h2>
-        <form action="formSubmit.html" method="post">
+        <form>
+            <h2>Create Account</h2>
+        <div>
+            <form action="formSubmit.html" method="post">
             <ul>
                 <li>
                     <label for="username">Username: </label>
@@ -26,18 +27,17 @@
                     <label for="password">Password: </label>
                     <input type="password" id="password" name="varPassword" />
                 </li>
+                <li>
+                    <label for="datetime">Date of Birth: </label>
+                    <input type="datetime-local" name="varDatetime" id="datetime" />
+                </li>
             </ul>
-            <button type="submit">Log In</button>
-            <button type="createAccount"><a href="createAccount.html">Create Account</a></button>
+            <p> Or Sign Up With...</p>
+            <p> Here you can sign up with social media or google</p>
+            <button type="submit">Create Account</button>
         </form>
 
-        <div>
-            <p>This is where the log in info will go.</p>
-        </div>
         
-        
-        </form>
-        </div>
     </main>
     <footer> Nathan Benson <a href="https://github.com/bensonn2/Startup">github</a></footer>
 </body>
