@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  margin: 2rem;
-}
-
 .demo-box {
   margin: 1rem 0;
   border: thin solid #dee2e6;
