@@ -42,6 +42,42 @@
 
     <main>
 
+        <div class="container-login d-flex justify-content-center align-items-center m-5">
+
+          <form action="formSubmit.html" method="post">
+                <div><h2>Create Account</h2></div>
+
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text">@</span>
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                    <label for="floatingInputGroup1">Username</label>
+                  </div>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <label for="datetime">Date of Birth: </label>
+                    <input type="datetime-local" name="varDatetime" id="datetime" />
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Terms and Conditions</label>
+                </div>
+
+            <button type="button" class="btn btn-primary btn-lg">Log In</button>
+            <button type="button" class="btn btn-primary btn-lg"><a href="createAccount.html">Create Account</a></button>
+        </form>
+        </div>
+
         <form>
             <h2>Create Account</h2>
         <div>
