@@ -6,7 +6,7 @@ This website is going to be about dreams. My family likes to share our dreams wi
 
 
 > [!NOTE]
->  This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
+>  With the html deliverable I added, well, the html. It's got a navbar so you can access the four different pages. There's also a fifth page that's only for when you want to create an account, and that's accessed through a button on the log in page. The rest is pretty straightforward, images and words that will eventually be turned into chats and whatnot. Because this is going to be a social media type website, I think that the javascript and websocket stuff is really going to make a difference. 
 
 > [!NOTE]
 >  If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
@@ -62,21 +62,21 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
+- [x] **Server deployed and accessible with custom domain name** - [My server link](https://nathantbenson.click/).
 
 ## 🚀 HTML deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - It's got four different pages, and technically a fifth page acced through the log in page meant only to create a new account.
+- [x] **Proper HTML element usage** - I'm pretty sure I used all the tags correctly, it's got a header and a footer, with most of the stuff in the body.
+- [x] **Links** - It's got links that take you to other pages in the website.
+- [x] **Text** - It's got some basic text down, but most of the text is going to come as people make their own posts.
+- [x] **3rd party API placeholder** - I wasn't sure what kind of 3rd party I could add that would help this out, so I was thinking you could log in through facebook or google.
+- [x] **Images** - It's got a couple of images. One I was hoping to turn into a background for the website, and then you can scroll through posts that are on top of this background. I just thought it would be a cool asthetic. 
+- [x] **Login placeholder** - It's got a log in page. 
+- [x] **DB data placeholder** - It's got a placeholder of data on the log in page.
+- [x] **WebSocket placeholder** - This is where I plan to put in some kind of feed. 
 
 ## 🚀 CSS deliverable
 
