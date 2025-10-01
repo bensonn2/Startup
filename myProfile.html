@@ -11,7 +11,7 @@
     <header class="sticky-top">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="https://getbootstrap.com/">
+        <a class="navbar-brand" href="index.html">
           <h1>DreamScape</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
@@ -42,22 +42,36 @@
 
     <main>
 
-        </div>
-        <h2>Sign In</h2>
+        <div class="container-login d-flex justify-content-center align-items-center">
+        <div><h2>Sign In</h2></div>
+
         <form action="formSubmit.html" method="post">
-            <ul>
-                <li>
-                    <label for="username">Username: </label>
-                    <input type="username" id="username" name="varUsername" />
-                </li>
-                <li>
-                    <label for="password">Password: </label>
-                    <input type="password" id="password" name="varPassword" />
-                </li>
-            </ul>
-            <button type="submit">Log In</button>
-            <button type="createAccount"><a href="createAccount.html">Create Account</a></button>
+
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text">@</span>
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                    <label for="floatingInputGroup1">Username</label>
+                  </div>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Terms and Conditions</label>
+                </div>
+
+            <button type="button" class="btn btn-primary btn-lg">Log In</button>
+            <button type="button" class="btn btn-primary btn-lg"><a href="createAccount.html">Create Account</a></button>
         </form>
+        </div>
 
         <div>
             <h3>This is where the log in info will go.</h3>
@@ -89,10 +103,9 @@
         </tbody>
       </table>
         </div>
-        
-        
-        </form>
-        </div>
+  
+
+
     </main>
     <div class="container">
   <footer class="py-3 my-4">
