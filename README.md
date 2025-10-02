@@ -6,7 +6,8 @@ This website is going to be about dreams. My family likes to share our dreams wi
 
 
 > [!NOTE]
->  With the html deliverable I added, well, the html. It's got a navbar so you can access the four different pages. There's also a fifth page that's only for when you want to create an account, and that's accessed through a button on the log in page. The rest is pretty straightforward, images and words that will eventually be turned into chats and whatnot. Because this is going to be a social media type website, I think that the javascript and websocket stuff is really going to make a difference. 
+>  With the html deliverable I added, well, the html. It's got a navbar so you can access the four different pages. There's also a fifth page that's only for when you want to create an account, and that's accessed through a button on the log in page. The rest is pretty straightforward, images and words that will eventually be turned into chats and whatnot. Because this is going to be a social media type website, I think that the javascript and websocket stuff is really going to make a difference.
+> With the CSS deliverable I added the styling using bootstrap. Everything looks much better. Though, It's not perfect yet. I stylized the navbar, the footer, and the different pages. On the home page I made a sudo-feed like thing. I made it so you can scroll down through cards that float over a space background. This definitely took a long time to figure out how to do. I also worked on CSS on my login page, though it's not perfect yet. Also, The communites page took a long time to get working. I used a lot of card groups to act as the different categories of communites you could join, as well as the individual communities within. Lastly, my about page isn't quite working yet and I will need to fix that.
 
 > [!NOTE]
 >  If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
@@ -82,12 +83,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Header, footer, and main content body** - I did not complete this part of the deliverable.
-- [ ] **Navigation elements** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing** - I did not complete this part of the deliverable.
-- [ ] **Application elements** - I did not complete this part of the deliverable.
-- [ ] **Application text content** - I did not complete this part of the deliverable.
-- [ ] **Application images** - I did not complete this part of the deliverable.
+- [x] **Header, footer, and main content body** - This is all looking great and working. Probably the best working thing so far.
+- [x] **Navigation elements** - Yes, it's easy to navigate to differnt pages and whatnot. 
+- [ ] **Responsive to window resizing** - This I had a lot of difficulty with and it's still being very weird and buggy and I still need to fix that.
+- [x] **Application elements** - I worked on the communities and the scrolling through a feed which work pretty well.
+- [x] **Application text content** - Most of the text right now is just filler since people will be filling that out on their own.
+- [x] **Application images** - It's got a couple images, one is acting as the background for the home page.
 
 ## 🚀 React part 1: Routing deliverable
 
